@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": "^8.1",
-        "gedmo/doctrine-extensions": "^3.20.0",
+        "gedmo/doctrine-extensions": "^3.20.0 || dev-doctrine3-clean",
         "symfony/cache": "^6.4 || ^7.0",
         "symfony/config": "^6.4 || ^7.0",
         "symfony/dependency-injection": "^6.4 || ^7.0",
@@ -44,7 +44,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-main": "1.x-dev"
+            "dev-doctrine3-patch": "1.99.99-dev"
         }
     },
     "config": {
